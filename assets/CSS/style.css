@@ -137,7 +137,7 @@ a {
 /* Setting box  */
 /* landing */
 .landing {
-    background-image: url(/assets/imgs/01.jpg);
+    background-image: url(../imgs/01.jpg);
     background-size: cover;
     height: 100vh;
 }

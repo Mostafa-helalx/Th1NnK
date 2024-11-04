@@ -96,7 +96,7 @@ function changeBackground() {
     if (backgroundOption === true) {
         backgroundInterval = setInterval(() => {
             // // Change bg img url 
-            landingPage.style.backgroundImage = `url(/assets/imgs/${imgsArr[i]})`
+            landingPage.style.backgroundImage = `url(./assets/imgs/${imgsArr[i]})`
             i++
 
             if (i >= imgsArr.length) {
