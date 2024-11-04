@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-<INTEGRITY_HASH>" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind Css -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>New Design</title>
+</head>
+
+<body>
+    <!-- box tool page -->
+    <div class="setting-box font-black">
+        <div class="toggle-setting">
+            <i class="fa-solid fa-gear icon"></i>
+        </div>
+        <div class="setting-container">
+            <div class="colors-box mb-5">
+                <h4 class="text-black font-semibold text-xl m-0 flex justify-center">Colors</h4>
+                <ul class="colors-list p-0 text-center flex align-center justify-center">
+                    <li class="active" data-color="#fbbf24"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <div class="text-black random-background text-center">
+                <h4 class="m-0 flex font-semibold justify-center capitalize text-lg">random background</h4>
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">no</span>
+            </div>
+        </div>
+    </div>
+    <!-- box tool page -->
+    <!-- landing page -->
+    <div class="landing relative">
+        <div class="absolute inset-0 bg-black opacity-50 overlay"></div>
+        <div class="container mx-auto relative">
+            <div class="header text-white flex items-center justify-between p-5">
+                <div class="font-black text-2xl">My.Th1NnK</div>
+                <nav class="nav">
+                    <ul class="flex space-x-4">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="relative h-screen flex items-center justify-center">
+                <div
+                    class="text text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                    <h1 class="text-5xl font-black mb-4">
+                        we are <span id="creative">creative</span> agency
+                    </h1>
+                    <p class="max-w-md mx-auto text-lg opacity-80">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, omnis doloribus! Recusandae
+                        incidunt
+                        repellat dolore, doloribus sapiente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- landing page -->
+    <!-- About Us -->
+    <div class="about py-12 grid justify-center  ">
+        <div class="container mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 items-center">
+            <div class="infoBox">
+                <h1 class="text-5xl font-black mb-4">About Us</h1>
+                <p class="text-gray-500 leading-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, vero voluptatibus? Rerum nobis
+                    pariatur distinctio ratione ipsum et nesciunt porro qui? Perferendis, cupiditate temporibus nihil
+                    eveniet ex atque repellat qui?</p>
+            </div>
+            <div class="imgBox justify-self-center md:justify-self-end" >
+                <img src="./assets/imgs/about-us.png" alt="About Us Image">
+            </div>
+        </div>
+    </div>
+    <!-- About Us -->
+
+    <script src="./assets/JS/main.js"></script>
+</body>
+
+</html>
